@@ -1,0 +1,43 @@
+{
+    "name": "riesjart/relaquent",
+    "description": "Extension of Laravel's Eloquent relationships: additional relationship types, query joins, pivot models, converters and helpers",
+    "keywords": [
+        "belongs-to-morph",
+        "converter",
+        "database",
+        "eloquent",
+        "has-one-through",
+        "illuminate",
+        "laravel",
+        "model",
+        "morph-one-through",
+        "join",
+        "php",
+        "pivot",
+        "relation",
+        "relationship",
+        "sql"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard van Baarsen",
+            "email": "richardvanbaarsen@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "illuminate/cache": "5.6.*",
+        "illuminate/container": "5.6.*",
+        "illuminate/database": "~5.6.3",
+        "illuminate/support": "5.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Riesjart\\Relaquent\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
