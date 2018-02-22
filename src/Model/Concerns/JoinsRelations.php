@@ -125,7 +125,7 @@ trait JoinsRelations
             $alias = Str::snake($relationName);
         }
 
-        $relation = $this->$relationName();
+        $relation = $query->getModel()->$relationName();
 
         $this->scopeCreateJoinFromRelation($query, $relation, $alias, $callback, $type, $where);
     }
